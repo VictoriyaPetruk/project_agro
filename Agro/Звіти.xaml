@@ -1,0 +1,25 @@
+﻿<Window x:Class="Agro.Звіти"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Agro"
+        mc:Ignorable="d"
+        Loaded="OnLoad"
+        Title="Звіти" Height="484.865" Width="840.292" WindowStartupLocation="CenterScreen">
+    <Grid Height="457" VerticalAlignment="Top" HorizontalAlignment="Left" Width="830" IsManipulationEnabled="True" Margin="0,0,0,-3">
+        <Button Content="Звіт 1" FontSize="25" Background="#FF78ECF1" HorizontalAlignment="Left" Margin="503,89,0,0" VerticalAlignment="Top" Width="82" Height="39" Click="Button_Click" RenderTransformOrigin="0.301,0.47"/>
+        <Button Content="Звіт 2"  FontSize="25" Background="#FF78ECF1" HorizontalAlignment="Left" Margin="503,167,0,0" VerticalAlignment="Top" Width="82" Height="41" Click="Button_Click_1"/>
+        <DataGrid  Name="grid2" HorizontalAlignment="Left" Height="267" Margin="32,89,0,0" VerticalAlignment="Top" Width="449"/>
+        <Button Name="btn1" Content="Сформувати звіт" FontSize="20" Background="#FF78ECF1" HorizontalAlignment="Left" Height="39" Margin="621,89,-24,0" VerticalAlignment="Top" Width="170" Click="Button_Click_2"/>
+        <Button Name="btn2" Content="Сформувати звіт" FontSize="20" Background="#FF78ECF1" HorizontalAlignment="Left" Height="39" Margin="621,167,0,0" VerticalAlignment="Top" Width="170" Click="Btn2_Click_1"/>
+        <Button   HorizontalAlignment="Left" Margin="0,361,0,0" VerticalAlignment="Top" Width="154" Height="85" Background="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click_3" >
+            <StackPanel Orientation="Horizontal">
+                <Image Source="C:\Users\Виктория\Downloads\strelka.png" Margin="0,0,5,0" />
+                <TextBlock />
+            </StackPanel>
+        </Button>
+
+
+    </Grid>
+</Window>

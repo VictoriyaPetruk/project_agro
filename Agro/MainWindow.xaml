@@ -1,0 +1,19 @@
+﻿<Window x:Class="Agro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Agro"
+        mc:Ignorable="d"
+        Title="Вхід в систему" Height="450" Width="694.318" WindowStartupLocation="CenterScreen"
+       >
+    <Grid Margin="0,0,2,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Вхід" FontSize="30" Background="White" HorizontalAlignment="Center" Margin="204,130,200,0" VerticalAlignment="Top" Width="280" Height="67" Click="Button_Click"/>
+        <Image Source="C:\Users\Виктория\Downloads\agro.jpg" HorizontalAlignment="Left" Height="217" Margin="0,202,0,0" VerticalAlignment="Top" Width="684" RenderTransformOrigin="0.634,-0.427"/>
+
+    </Grid>
+</Window>
